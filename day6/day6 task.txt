@@ -1,0 +1,116 @@
+Day 6 - Deployment Preparation and Staging Environment Setup
+Objective
+To prepare and deploy a fully functional staging environment for your marketplace, ensuring readiness for production with a focus on deployment strategies, secure environment variables, and thorough testing.
+
+Key Learning Outcomes
+Setting up a staging environment on hosting platforms like Vercel, Netlify, or AWS.
+Configuring environment variables securely for the application.
+Conducting functional, performance, and security testing in a staging environment.
+Creating and organizing professional documentation, including deployment instructions and testing reports.
+Structuring the GitHub repository with all project files and activities from Days 1-6.
+Professional Environment Types
+TRN (Training): Practice and onboarding.
+DEV (Development): Writing and testing code locally.
+SIT (System Integration Testing): Validating system integrations.
+UAT (User Acceptance Testing): Stakeholder testing to ensure requirements are met.
+PROD (Production): The live, customer-facing environment.
+DR (Disaster Recovery): Backup for critical situations.
+Key Areas of Focus
+Deployment Strategy Planning:
+
+Choose hosting platforms (Vercel, Netlify, AWS).
+Integrate backend services (e.g., Sanity CMS, APIs).
+Environment Variable Configuration:
+
+Secure sensitive data using .env files.
+Configure environment variables within the hosting platform.
+Staging Environment Setup:
+
+Deploy and validate the application in a production-like environment.
+Staging Environment Testing:
+
+Functional, performance, and security testing using tools like Cypress, Postman, Lighthouse.
+Documentation Updates:
+
+Create a professional README.md file summarizing all activities.
+Organize files and test case reports.
+Steps for Implementation
+Step 1: Hosting Platform Setup
+Choose a Platform:
+
+Use Vercel or Netlify for simplicity.
+Advanced options: AWS or Azure.
+Connect Repository:
+
+Link GitHub repository.
+Configure build settings (e.g., scripts, frameworks).
+Step 2: Configure Environment Variables
+Create .env File:
+env
+Copy
+Edit
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=production
+API_KEY=your_api_key
+Secure Variables:
+Upload variables through the hosting platform’s dashboard.
+Step 3: Deploy to Staging
+Deploy application through hosting platform.
+Verify successful build and functionality in staging.
+Step 4: Staging Environment Testing
+Testing Types:
+
+Functional Testing: Test features like product listings, search, and cart operations.
+Performance Testing: Use Lighthouse or GTmetrix for speed analysis.
+Security Testing: Validate input fields, HTTPS, and sensitive data handling.
+Test Case Reporting (Example):
+
+Test Case ID	Description	Steps	Expected Result	Actual Result	Status	Remarks
+TC001	Validate product listing	Open product page	Products displayed	Products displayed	Passed	No issues found
+TC002	API error handling	Disconnect API > Refresh	Fallback message shown	Fallback message shown	no 
+TC003	Check cart functionality	Add item to cart	Cart updates correctly	Cart updates correctly		Works as expected
+Step 5: Documentation Updates
+Create README.md: Summarize deployment steps, test results, and project structure.
+Organize Files:
+Use a structured folder hierarchy:
+arduino
+Copy
+Edit
+├── documents/
+│   ├── Day1-Setup.md
+│   ├── Day6-Deployment.md
+├── src/
+│   ├── components/
+│   ├── pages/
+├── public/
+│   ├── images/
+└── README.md
+Expected Output
+Deployed staging environment link.
+Secured environment variables in hosting platform.
+Test case reports and performance results.
+Organized GitHub repository with clear folder hierarchy.
+Professional README.md.
+Submission Requirements
+Submit the following:
+
+Staging environment link.
+GitHub repository with:
+Documents folder containing all project activities.
+Test case and performance reports.
+Organized project files.
+Submit via form:
+Submission Form Link
+
+Checklist for Day 6
+ Deployment Preparation: Staging environment deployed successfully.
+ Staging Environment Testing: All test cases executed and documented.
+ Documentation: README.md and structured repository uploaded.
+ Form Submission: All required links and files submitted.
+
+
+
+
+
+
+
