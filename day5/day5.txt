@@ -1,0 +1,75 @@
+                                  GIAIC DAY5 TASK
+
+
+├── src/  
+│   ├── components/  
+│   ├── pages/  
+│   └── styles/  
+├── public/  
+├── tests/  
+│   └── reports.csv  
+├── README.md  
+└── docs/  
+    └── Day5_Report.pdf  
+
+
+
+
+Performance Optimization
+
+Reduce page load times by:
+Lazy-loading images and components.
+Compressing assets (e.g., images, JavaScript).
+Ensure smoother interactions by:
+Minimizing DOM updates.
+Using React's state and props efficiently.
+
+
+
+
+Step-by-Step Implementation and Submission Guidelines
+Testing and Fixing
+Testing Results:
+
+Key Issues and Resolutions: Document critical issues found during testing and how they were resolved.
+Before-and-After Evidence: Include screenshots highlighting fixes made.
+Functional Testing Tools:
+
+Use tools like Cypress, Postman, and Lighthouse.
+Ensure API handling includes error messages and fallback UI for failed calls.
+CSV Testing Report:
+
+Follow the structure provided:
+Test Case ID	Description	Steps	Expected Result	Actual Result	Status	Severity	Assigned To	Remarks
+TC001	Test Login Function	Steps listed	Login succeeds	Login succeeds	Passed	Low	-	-
+Error Handling:
+
+Use try-catch for API calls.
+Provide fallback UI (e.g., "No data available").
+Performance Optimization
+Reduce page load times by:
+Lazy-loading images and components.
+Compressing assets (e.g., images, JavaScript).
+Ensure smoother interactions by:
+Minimizing DOM updates.
+Using React's state and props efficiently.
+Responsive Design Verification
+Test the layout across multiple devices (e.g., phones, tablets, desktops).
+Validate compatibility using tools like BrowserStack or manually across major browsers.
+
+
+
+Task	Status (✔/✘)
+Functional Testing	 ✘
+Error Handling	✔ 
+Performance Optimization	✔ ✘
+Cross-Browser and Device Testing	✔ 
+Security Testing	✔ 
+Documentation	✔ 
+Final Review	✔ ✘
+Shipping ✘
+tracking ✘
+
+
+
+
